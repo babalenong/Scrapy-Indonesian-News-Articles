@@ -1,16 +1,11 @@
-# run "scrapy crawl detik -o detik.jl" on terminal
+# run "scrapy crawl detik -o detik.csv" on terminal
+# csv karena lebi nyaman dgn excel things
 
 import scrapy
-from scrapy.spiders import CSVFeedSpider
 
 class DetikSpider(scrapy.Spider):
     name = "detik"
-    custom_settings = {
-        'FEED_URI': 'detik.csv',
-        'FEED_FORMAT': 'csv',
-        'FEED_EXPORT_FIELDS': ['judul', 'berita']
-}
-    
+
     # satu satu karena mager implementasi utk di auto in 🙏
     start_urls = [
         "https://finance.detik.com/berita-ekonomi-bisnis/5064934/ada-42-juta-pns-di-ri-kebanyakan-cuma-jadi-admin",
