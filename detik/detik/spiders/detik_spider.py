@@ -7,6 +7,8 @@ class DetikSpider(scrapy.Spider):
     name = "detik"
 
     # satu satu karena mager implementasi utk di auto in 🙏
+    # dan karena fungsi utamanya mendapatkan dataset, 
+    # jadi dipilih yang cocok
     start_urls = [
         "https://finance.detik.com/berita-ekonomi-bisnis/5064934/ada-42-juta-pns-di-ri-kebanyakan-cuma-jadi-admin",
         "https://finance.detik.com/berita-ekonomi-bisnis/d-5065025/bkpm-minta-tambahan-anggaran-rp-509-m-di-2021-ini-alokasinya",
@@ -14,8 +16,8 @@ class DetikSpider(scrapy.Spider):
     ]
 
     def parse(self, response):
-        for content in response.css('div.detail_content'):
+        for content in response.css("article.detail.itp_bodycontent"):
             yield {
-                'judul': content.css('div.jdl h1::text').get(),
-                'berita': response.css("div.itp_bodycontent p::text").getall(),
+                'judul': content.css("h1.detail__title::text").get(),
+                'berita': content.css("div.detail__body p::text").getall()
             }
