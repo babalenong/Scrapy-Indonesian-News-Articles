@@ -40,5 +40,5 @@ class CNNIndonesiaSpider(scrapy.Spider):
     def parse(self, response):
         yield {
           'judul': response.css('h1.title::text').get(),
-          'berita': response.css("div.detail_text p::text").getall(),
+          'berita': response.css("div.detail_text::text").getall(),
         }
