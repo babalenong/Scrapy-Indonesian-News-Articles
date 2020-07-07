@@ -21,11 +21,11 @@ class DetikSpider(scrapy.Spider):
         "https://finance.detik.com/bursa-dan-valas/d-5069331/waskita-terima-pembayaran-tol-japek-layang-dan-lrt-palembang-rp-6-t",
         "https://finance.detik.com/infrastruktur/d-5066707/basuki-minta-rp-280-m-buat-tangani-lumpur-lapindo",
         "https://finance.detik.com/infrastruktur/d-5066584/bangun-tol-trans-sumatera-771-km-hutama-karya-tarik-utang-rp-12-t?single=1",
-        "https://finance.detik.com/berita-ekonomi-bisnis/d-5066522/perusahaan-korsel-dan-singapura-bikin-lab-corona-di-bandara-kalimantan",
+        "https://finance.detik.com/berita-ekonomi-bisnis/d-5066522/perusahaan-korsel-dan-singapura-bikin-lab-corona-di-bandara-kalimantan?single=1",
         "https://finance.detik.com/moneter/d-5066510/titipkan-rp-30-t-ke-bank-bumn-sri-mulyani-beri-bunga-murah",
         "https://finance.detik.com/berita-ekonomi-bisnis/d-5066485/kai-catat-kenaikan-volume-penumpang-ka-reguler-hingga-49",
-        "https://finance.detik.com/bursa-dan-valas/d-5066465/245-saham-hijau-ihsg-ditutup-perkasa-di-4964",
-        "https://finance.detik.com/berita-ekonomi-bisnis/d-5066424/tok-banggar-dpr-sepakat-ekonomi-ri-45-55-di-2021",
+        "https://finance.detik.com/berita-ekonomi-bisnis/d-5078770/dilelang-untuk-bantuan-covid-19-jaket-ini-laku-rp-88-juta?tag_from=wp_nhl_2",
+        "https://finance.detik.com/berita-ekonomi-bisnis/d-5064177/ancaman-pengangguran-tembus-12-juta-orang-di-depan-mata",
         "https://finance.detik.com/berita-ekonomi-bisnis/d-5066351/perpajakan-ditargetkan-tumbuh-105-di-2021-bagaimana-caranya",
         "https://finance.detik.com/bumn/d-5066282/di-tengah-gelombang-phk-bumn-ini-rekrut-1490-karyawan-baru",
         "https://finance.detik.com/berita-ekonomi-bisnis/d-5066241/dapat-suntikan-rp-11-t-laba-hutama-karya-diprediksi-turun-50",
@@ -33,7 +33,7 @@ class DetikSpider(scrapy.Spider):
         "https://finance.detik.com/berita-ekonomi-bisnis/d-5066179/pertama-kali-penerimaan-perpajakan-ri-minus-92",
         "https://finance.detik.com/berita-ekonomi-bisnis/d-5066155/tenaga-medis-gugur-tangani-corona-dapat-santunan-hingga-rp-341-juta",
         "https://finance.detik.com/infrastruktur/d-5066151/hk-masih-butuh-rp-51-t-rampungkan-771-km-tol-trans-sumatera",
-        "https://finance.detik.com/bursa-dan-valas/d-5066114/melonjak-88-poin-ihsg-kembali-dekati-5000",
+        "https://finance.detik.com/industri/d-5079048/kalung-antivirus-corona-buatan-ri-diproduksi-massal-bulan-depan?tag_from=wp_nhl_3",
         "https://finance.detik.com/bursa-dan-valas/d-5066012/umumkan-ios-14-saham-apple-diprediksi-melejit-10"
     ]
 
